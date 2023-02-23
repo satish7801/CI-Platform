@@ -1,0 +1,329 @@
+.main-container-volunteering {
+  margin-top: 62px;
+}
+
+
+/* first container left part */
+
+
+
+.volunteer-right {
+  max-width: 662px;
+}
+.card-title1 {
+  font-family: "Noto Sans light", sans-serif;
+  font-size: 38px;
+  color: #414141;
+  margin-top: 41.5px;
+}
+.card-text1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+}
+
+.border-gray-design {
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+}
+
+.common-btn-volunteer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+  border: 2px solid #757575;
+  border-radius: 25px;
+  padding: 10px 16px;
+  font-family: "Noto Sans light", sans-serif;
+  font-size: 17px;
+  color: #757575;
+}
+.common-btn-volunteer:hover {
+  background-color: #f88634;
+  color: white;
+  border: #757575;
+}
+
+.heart-image {
+}
+
+.heart-image:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+
+.btn-text-volunteer {
+  margin-left: 9px;
+  font-family: "Noto Sans light", sans-serif;
+  font-size: 17px;
+  margin-top: 5px;
+  color: #757575;
+}
+.heart-image {
+  margin-bottom: 5px;
+  margin-right: 9px;
+}
+
+.event-duration3 {
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* card css for input */
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  position: relative;
+  top: -15px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.card-box-design {
+  height: 130px;
+  width: 150px;
+  padding: 0px;
+  padding-left: 16px;
+  padding-top: 16px;
+  text-align: start;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+.apply-design{
+  width: 220px;
+}
+.apply-btn{
+  font-size: 20px;
+}
+.arrow-icon{
+  width: 25px;
+  height: 16px;
+  
+}
+
+/* 2nd container */
+
+
+.volunteer-second-conainer{
+  padding-bottom: 137px!important;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: transparent;
+  color: #505050;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #414141;
+  color: #414141;
+  font-weight: 500;
+}
+.nav-link {
+  color: #adadad;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 14px 18px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #adadad;
+}
+
+.tab-content {
+  margin-top: 25px;
+}
+
+.tab-pane {
+  font-size: 15px;
+  line-height: 24px;
+  color: #3e3e3e;
+}
+
+.volunteer-text-title {
+  font-size: 25px;
+  color: #414141;
+  font-family: "Noto Sans light", sans-serif;
+  font-weight: 1000;
+}
+.document-container {
+  padding:  11px 28px 11px 25px;
+  border: 1px solid #e8e8e8;
+  border-radius: 23px;
+  text-decoration: none;
+  color: #414141;
+}
+
+.doc-img {
+  margin-right: 9px;
+}
+
+/* comments tab */
+
+.comment-text{
+  height: 78px;
+  font-family: "Noto Sans light", sans-serif;
+}
+.comment-container{
+  background-color: #e7e7e7b0;
+  height: 724px;
+  overflow: scroll;
+}
+.comment-mini-container{
+  width: 95%;
+}
+.comment-image{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.comment-user-name{
+  font-size: 20px;
+  font-family: "Noto Sans light", sans-serif;
+}
+.comment-time{
+  margin-top: 10px;
+  font-family: "Noto Sans light", sans-serif;
+}
+.comment-text2{
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Noto Sans light", sans-serif;
+}
+
+/* 2nd container second part */
+
+/* rating-part */
+
+.rating-container{
+  border: 1px solid #e8e8e8;
+  width: 493px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rating-title{
+  font-size: 22px;
+  font-family: "Noto Sans light", sans-serif;
+  color: #414141;
+  padding-bottom: 21px;
+  border-bottom: 2px solid black;
+  width: 32%;
+  margin-bottom: 23px;
+}
+.hr-tag{
+  position: relative;
+  top: -24px;
+  color: #8f8e8e;
+  margin-bottom: 0px;
+}
+
+.rating-text1{
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.rating-text-text{
+  border-bottom: 1px solid #e8e8e8;
+}
+.rate-container{
+  
+}
+.bi-star-fill{
+  width: 21px;
+  height: 20px;
+}
+.volunteer-number{
+  color: #757575;
+  
+}
+
+/* recent volunteer part */
+.recent-volunteer-title{
+  font-size: 22px;
+  font-family: "Noto Sans light", sans-serif;
+  color: #414141;
+  padding-bottom: 21px;
+  border-bottom: 2px solid black;
+  width: 48%;
+  margin-bottom: 23px;
+}
+
+.recent-volunteer-image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.recent-volunteer-name{
+  margin-bottom: 0px;
+}
+.volunteer-pagination{
+  border: 1px solid #e8e8e8;
+  height: 55px;
+}
+.arrow-container{
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+
+}
+.volunteer-arrow{
+  width: 6px;
+  height: 11px;
+}
+
+
+/* related missions */
+
+.related-mission-title{
+  font-family: "Noto Sans light", sans-serif;
+  color: #414141;
+  font-size: 34px;
+  margin-top: 69px;
+  margin-bottom: 21px;
+}
+
+.card-main1{
+  width: 98%;
+  border: 1px solid #e8e8e8;
+}
+
+
+
+@media screen and (min-width: 1550px) {
+  .main-container-volunteering {
+    max-width: 1478px !important;
+  }
+}

@@ -1,0 +1,1205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Page | Company</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Meta descriptions may be included in search results to concisely summarize page content.">
+    <link rel="shortcut icon" href="images/favicon-icon.ico" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="header.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+
+
+    <script>
+
+
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <div class="text-center custom-nav">
+        <div class="  row m-0 container-lg container-md container-sm container-custom mx-auto p-0">
+            <div class="first-part d-inline text-center col-md-8 col-sm-7 col-8">
+                <span class="header-text">Stories</span>
+                <div class="dropdown d-inline custom-dropdown">
+                    <button class=" dropdown-toggle profile bg-white border-0" type="button" data-bs-toggle="dropdown">
+                        <span class="header-text">Policy</span>
+                        <img src="./assets/drop-down.png" class=" ms-1">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">My Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Help</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dropdown d-inline second-part col-md-4 col-sm-5 col-4 text-end p-0">
+                <button class=" dropdown-toggle border-0 bg-white text-end  mt-3 custom-dropdown-button p-0"
+                    type="button" data-bs-toggle="dropdown">
+                    <img src="./assets/user-img-large1.png" class="profile-image me-sm-3 me-0">
+                    <span class="d-none d-sm-inline">Evan Donohoe</span>
+                    <img class="d-none d-sm-inline" src="./assets/drop-down.png" class="ic-down ms-1">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="second-header   filter-part justify-content-center">
+        <div class="row container-lg container-md container-sm container-custom mx-auto p-0">
+            <div class="search-part col-lg-6 text-start p-0 d-flex justify-content-between">
+                <div class="search-container d-inline ms-lg-1 ms-md-3 ms-sm-3 ms-xs-3">
+                    <label for="search" class="search-label">
+                        <img class="search-icon" src="./assets/search.png">
+                    </label>
+                    <input id="search" class="search-text col-8" type="text" placeholder="Search mission...">
+                </div>
+
+                <button class="btn  d-sm-inline d-lg-none me-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="./assets/filter.png">
+                </button>
+
+            </div>
+
+
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">CI Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" id="offcanvasExample">
+                    <div class=" filter-common2  outline-0  p-0">
+
+                        <div class="dropdown h-100">
+                            <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Country
+                            </div>
+                            <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="education">
+                                            India
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="Health">
+                                            Russia
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            US
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            UK
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Canada
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Turkey
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" filter-common2 outline-0 p-0">
+
+                        <div class="dropdown h-100">
+                            <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                City
+                            </div>
+                            <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="education">
+                                            Ahemdabad
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="Health">
+                                            Rajkot
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Surendranagar
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Morbi
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Dwarka
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Mumbai
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Delhi
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" filter-common2  outline-0 p-0">
+
+                        <div class="dropdown h-100">
+                            <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Theme
+                            </div>
+                            <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="education">
+                                            Environment
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="Health">
+                                            Children
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Nutrition
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Animals
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Health
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Education
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" filter-common2  outline-0 p-0">
+
+                        <div class="dropdown h-100">
+                            <div class="form-select d-flex align-items-center dropdown-toggle h-100 border-0"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Skill
+                            </div>
+                            <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="education">
+                                            Reasearch
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" checked />
+                                        <label class="form-check-label ps-2" for="Health">
+                                            Music Theory
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Administrative
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Data Entry
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Animal Therapy
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check dropdown-item px-4">
+                                        <input class="form-check-input mx-auto" type="checkbox" value=""
+                                            id="flexCheckDefault" />
+                                        <label class="form-check-label ps-2" for="Children">
+                                            Transactions
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-lg-6 filter-part-category-wise row p-0 m-0 ">
+
+
+                <div class="country-filter filter-common col-lg-3 col-sm-3 outline-0 h-100 filter_item p-0">
+
+                    <div class="dropdown h-100">
+                        <div class="form-select d-flex align-items-center dropdown-toggle h-100 border-0" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Country
+                        </div>
+                        <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="education">
+                                        India
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="Health">
+                                        Russia
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        US
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        UK
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Kanada
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Turkey
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="country-filter filter-common col-lg-3 col-sm-3 outline-0 h-100 filter_item p-0">
+
+                    <div class="dropdown h-100">
+                        <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            City
+                        </div>
+                        <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="education">
+                                        Ahemdabad
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="Health">
+                                        Rajkot
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Surendranagar
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Morbi
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Dwarka
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Mumbai
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Delhi
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="country-filter filter-common col-lg-3 col-sm-3 outline-0 h-100 filter_item p-0">
+
+                    <div class="dropdown h-100">
+                        <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Theme
+                        </div>
+                        <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="education">
+                                        Environment
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="Health">
+                                        Children
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Nutrition
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Animals
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Health
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Education
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="country-filter filter-common col-lg-3 col-sm-3 outline-0 h-100 filter_item p-0">
+
+                    <div class="dropdown h-100">
+                        <div class="form-select d-flex align-items-center dropdown-toggle hide_dropdown_arrow hide_border_select h-100 border-0"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Skill
+                        </div>
+                        <ul class="dropdown-menu w-100 scroll_dropdown" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="education">
+                                        Reasearch
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" checked />
+                                    <label class="form-check-label ps-2" for="Health">
+                                        Music Theory
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Administrative
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Data Entry
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Animal Therapy
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check dropdown-item px-4">
+                                    <input class="form-check-input mx-auto" type="checkbox" value=""
+                                        id="flexCheckDefault" />
+                                    <label class="form-check-label ps-2" for="Children">
+                                        Transactions
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- <select name="Country" class="country-filter filter-common col-lg-3 col-sm-3">
+                        <option value="default" selected>Country</option>
+                        <option value="india">India</option>
+                        <option value="russia">Russia</option>
+                        <option value="us">US</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="melborne">Melborne</option>
+                        <option value="uk">UK</option>
+                    </select> -->
+                <!-- <select name="City" class="city-filter filter-common col-lg-3 col-sm-3">
+                            <option value="default">City</option>
+                            <option value="ahemdabad">
+                                <li class="checkbox me-1 d-inline" type="checkbox">Ahemdabad</li>
+                            </option>
+                            <option value="rajkot">Rajkot</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="mumbai">Mumbai</option>
+
+                        </select> -->
+                <!-- <select name="Theme" class="theme-filter filter-common col-lg-3 col-sm-3">
+                            <option value="default">Theme</option>
+                            <option value="environment">Environment</option>
+                            <option value="children">Children</option>
+                            <option value="nutrition">Nutrition</option>
+                            <option value="animals">Animals</option>
+                            <option value="health">Health</option>
+                            <option value="edu">Education</option>
+                        </select> -->
+                <!-- <select name="country" class="skill-filter filter-common col-lg-3 col-sm-3">
+                            <option value="default">Skill</option>
+                            <option value="india">Music Theory</option>
+                            <option value="russia">Reasearch</option>
+                            <option value="us">Administrative</option>
+                            <option value="turkey">Data Entry</option>
+                            <option value="melborne">Animal Therapy</option>
+                            <option value="uk">Transactions</option>
+                        </select> -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="filter-list container-lg container-md container-sm container-custom d-flex flex-wrap p-0">
+
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Tree Plantation</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Canada</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Toronto</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Montreal</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Environment</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Nutrition</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Anthropology</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+        <div id="filter-name" class="filter-name ">
+            <p class="filter-design d-inline">Environmental Science</p>
+            <img src="./assets/cancel.png" class="cross-icon my-auto d-inline">
+        </div>
+
+        <a href="#" class="clear-btn my-auto">Clear all</a>
+
+
+    </div>
+
+    <div
+        class="title-header d-flex container-lg container-md container-sm container-custom mx-auto p-0 justify-content-between flex-wrap">
+
+        <div class=" p-0 text-start"><span class="explore">Explore </span><span class="mission-number">72
+                missions</span></div>
+
+        <div class="p-0 text-end ms-3">
+            <select name="sort-by" class="sort-container">
+                <option value="default">Sort by</option>
+                <option value="india">High to Low</option>
+                <option value="russia">Low to High</option>
+                <option value="us">By Rating</option>
+
+            </select>
+            <div class="view-type d-inline">
+                <img class="grid-view" src="./assets/grid.png">
+                <img class="list-view" src="./assets/list.png">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card-part  container-lg container-md container-sm container-custom p-0">
+
+        <div class="row d-flex flex-row justify-content-around m-0">
+
+            <div class="card-container col-xl-4 col-lg-6 mt-3  col-sm-12 p-0">
+                <div class="shadow p-3 mb-3 bg-white rounded card-main mx-auto">
+
+                    <div class="card custom-card ">
+                        <div class="text-bg-dark bg-dark">
+                            <img src="./assets/Grow-Trees-On-the-path-to-environment-sustainability.png"
+                                class="card-img-top card-image1" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                <div class="image-text-container first-text text-end">
+                                    <p class="card-text image-text"><img class="location-image" src="./assets/pin.png">
+                                        Toronto</p>
+                                </div>
+                                <div class="heart-suggest">
+                                    <div class="image-text-container text-end">
+                                        <p class="card-text image-text"><img src="./assets/heart.png"></p>
+                                    </div>
+                                    <div class="image-text-container last-text text-end">
+                                        <p class="card-text image-text"><img src="./assets/user.png"></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="theme-title-container">
+                    <span class="theme-title mx-auto text-center zindex-99">Environment</span>
+                </div> -->
+
+
+
+                    <div class="card-body card-body-design">
+                        <p class="card-theme rounded-pill py-1 px-3 border-0 ms-auto me-auto bg-white">Environment</p>
+                        <div class="first-body">
+                            <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                vel
+                                soluta! Sed ipsam cumque, delectus dignissimos eos facere laboriosam nostrum nam
+                                voluptas.
+                            </p>
+                            <div class="country-rating d-flex justify-content-between mx-4">
+                                <span class="organization-name">Tree Canada</span>
+
+                                <div class="rate">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="event-duration mx-auto ">From 10/01/2019 until 25/02/2019</div>
+
+                        <div class="event-progress-status row p-0 me-2">
+
+                            <div class="seat-left d-flex  col align-items-center p-0">
+                                <span class="image-cont">
+                                    <img class="card-dead-image" src="./assets/Seats-left.png">
+                                </span>
+                                <div class="seats-left-text d-flex ">
+                                    <span class="number-of-seats text-start ms-1">10
+
+                                        <span class="common-text d-flex">Seats left</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class=" d-flex  col align-items-center p-0">
+                            <span class="image-cont d-flex ">
+                                <img class="card-dead-image" src="./assets/deadline.png">
+                            </span>
+                            <div class="seats-left-text d-flex w-75">
+                                <span class="number-of-seats text-start ms-1">09/01/2019
+                                    <span class="common-text d-flex">Deadline</span></span>
+                                
+                            </div>
+                        </div> -->
+                            <div class=" d-flex  col align-items-center p-0">
+                                <span class="image-cont d-flex ">
+                                    <img class="card-dead-image" src="./assets/achieved.png">
+                                </span>
+                                <div class="seats-left-text d-flex w-75">
+
+                                    <span class="number-of-seats text-start ms-1 w-100">
+
+                                        <div class="progress  w-100" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                        </div>
+
+
+                                        <span class="common-text d-flex">8000 achieved</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-design m-0">
+
+                        <div class="apply-btn-container d-flex justify-content-around">
+                            <div class="apply-design ">
+                                <a class="apply-btn btn mx-auto  my-auto">Apply<i
+                                        class="bi bi-arrow-right arrow-icon"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-container col-xl-4 col-lg-6 mt-3  col-sm-12 p-0">
+                <div class="shadow p-3 mb-3 bg-white rounded card-main mx-auto">
+
+                    <div class="card custom-card ">
+                        <div class="text-bg-dark bg-dark">
+                            <img src="./assets/Grow-Trees-On-the-path-to-environment-sustainability.png"
+                                class="card-img-top card-image1" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                <div class="image-text-container first-text text-end">
+                                    <p class="card-text image-text"><img class="location-image" src="./assets/pin.png">
+                                        Toronto</p>
+                                </div>
+                                <div class="heart-suggest">
+                                    <div class="image-text-container text-end">
+                                        <p class="card-text image-text"><img src="./assets/heart.png"></p>
+                                    </div>
+                                    <div class="image-text-container last-text text-end">
+                                        <p class="card-text image-text"><img src="./assets/user.png"></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="theme-title-container">
+                    <span class="theme-title mx-auto text-center zindex-99">Environment</span>
+                </div> -->
+
+
+
+                    <div class="card-body card-body-design">
+                        <p class="card-theme rounded-pill py-1 px-3 border-0 ms-auto me-auto bg-white">Environment</p>
+                        <div class="first-body">
+                            <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                vel
+                                soluta! Sed ipsam cumque, delectus dignissimos eos facere laboriosam nostrum nam
+                                voluptas.
+                            </p>
+                            <div class="country-rating d-flex justify-content-between mx-4">
+                                <span class="organization-name">Tree Canada</span>
+
+                                <div class="rate">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="event-duration mx-auto ">From 10/01/2019 until 25/02/2019</div>
+
+                        <div class="event-progress-status row p-0 me-2">
+
+                            <div class="seat-left d-flex  col align-items-center p-0">
+                                <span class="image-cont">
+                                    <img class="card-dead-image" src="./assets/Seats-left.png">
+                                </span>
+                                <div class="seats-left-text d-flex ">
+                                    <span class="number-of-seats text-start ms-1">10
+
+                                        <span class="common-text d-flex">Seats left</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class=" d-flex  col align-items-center p-0">
+                            <span class="image-cont d-flex ">
+                                <img class="card-dead-image" src="./assets/deadline.png">
+                            </span>
+                            <div class="seats-left-text d-flex w-75">
+                                <span class="number-of-seats text-start ms-1">09/01/2019
+                                    <span class="common-text d-flex">Deadline</span></span>
+                                
+                            </div>
+                        </div> -->
+                            <div class=" d-flex  col align-items-center p-0">
+                                <span class="image-cont d-flex ">
+                                    <img class="card-dead-image" src="./assets/achieved.png">
+                                </span>
+                                <div class="seats-left-text d-flex w-75">
+
+                                    <span class="number-of-seats text-start ms-1 w-100">
+
+                                        <div class="progress  w-100" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                        </div>
+
+
+                                        <span class="common-text d-flex">8000 achieved</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-design m-0">
+
+                        <div class="apply-btn-container d-flex justify-content-around">
+                            <div class="apply-design ">
+                                <a class="apply-btn btn mx-auto  my-auto">Apply<i
+                                        class="bi bi-arrow-right arrow-icon"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-container col-xl-4 col-lg-6 mt-3  col-sm-12 p-0">
+                <div class="shadow p-3 mb-3 bg-white rounded card-main mx-auto">
+
+                    <div class="card custom-card ">
+                        <div class="text-bg-dark bg-dark">
+                            <img src="./assets/Grow-Trees-On-the-path-to-environment-sustainability.png"
+                                class="card-img-top card-image1" alt="">
+                            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                <div class="image-text-container first-text text-end">
+                                    <p class="card-text image-text"><img class="location-image" src="./assets/pin.png">
+                                        Toronto</p>
+                                </div>
+                                <div class="heart-suggest">
+                                    <div class="image-text-container text-end">
+                                        <p class="card-text image-text"><img src="./assets/heart.png"></p>
+                                    </div>
+                                    <div class="image-text-container last-text text-end">
+                                        <p class="card-text image-text"><img src="./assets/user.png"></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="theme-title-container">
+                    <span class="theme-title mx-auto text-center zindex-99">Environment</span>
+                </div> -->
+
+
+
+                    <div class="card-body card-body-design">
+                        <p class="card-theme rounded-pill py-1 px-3 border-0 ms-auto me-auto bg-white">Environment</p>
+                        <div class="first-body">
+                            <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                vel
+                                soluta! Sed ipsam cumque, delectus dignissimos eos facere laboriosam nostrum nam
+                                voluptas.
+                            </p>
+                            <div class="country-rating d-flex justify-content-between mx-4">
+                                <span class="organization-name">Tree Canada</span>
+
+                                <div class="rate">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                    <i class="bi bi-star-fill bi-gray"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="event-duration mx-auto ">From 10/01/2019 until 25/02/2019</div>
+
+                        <div class="event-progress-status row p-0 me-2">
+
+                            <div class="seat-left d-flex  col align-items-center p-0">
+                                <span class="image-cont">
+                                    <img class="card-dead-image" src="./assets/Seats-left.png">
+                                </span>
+                                <div class="seats-left-text d-flex ">
+                                    <span class="number-of-seats text-start ms-1">10
+
+                                        <span class="common-text d-flex">Seats left</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- <div class=" d-flex  col align-items-center p-0">
+                            <span class="image-cont d-flex ">
+                                <img class="card-dead-image" src="./assets/deadline.png">
+                            </span>
+                            <div class="seats-left-text d-flex w-75">
+                                <span class="number-of-seats text-start ms-1">09/01/2019
+                                    <span class="common-text d-flex">Deadline</span></span>
+                                
+                            </div>
+                        </div> -->
+                            <div class=" d-flex  col align-items-center p-0">
+                                <span class="image-cont d-flex ">
+                                    <img class="card-dead-image" src="./assets/achieved.png">
+                                </span>
+                                <div class="seats-left-text d-flex w-75">
+
+                                    <span class="number-of-seats text-start ms-1 w-100">
+
+                                        <div class="progress  w-100" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                        </div>
+
+
+                                        <span class="common-text d-flex">8000 achieved</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-design m-0">
+
+                        <div class="apply-btn-container d-flex justify-content-around">
+                            <div class="apply-design ">
+                                <a class="apply-btn btn mx-auto  my-auto">Apply<i
+                                        class="bi bi-arrow-right arrow-icon"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="p-0 m-0 list-card row bg-white ms-2 me-2 shadow  mb-5 bg-body-tertiary rounded">
+            <div class="card  col-lg-3 col-md-3 p-0">
+
+                <img src="./assets/img.png" class="card-image2" alt="">
+                <span class="theme-title mx-auto text-center">Environment</span>
+
+
+            </div>
+            <div class="col-lg-9 col-md-9 m-0 p-0">
+                <!-- <div class="row p-0 mt-2 ">
+                    <div class="col-2 ps-5"><img src="./assets/pin1.png"> <span class="country-name">Atlana</span>
+                    </div>
+                    <div class="col-3"><img src="./assets/web.png"> <span class="country-name">Environment</span></div>
+                    <div class="col-5"><img src="./assets/organization.png"> <span class="country-name">Smith
+                            International Caring Foundation</span></div>
+
+                    <div class="col-2">
+                        <div class="rate">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill bi-gray"></i>
+                            <i class="bi bi-star-fill bi-gray"></i>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row p-0 mt-4">
+                    <h3 class="mission-title ps-5 "><strong>Planting and afforestation activities</strong></h3>
+                </div>
+
+                <div class="row p-0 mt-2">
+                    <span class="mission-description ps-5 text-muted">This summer we are aiming to plant 40000
+                        trees</span>
+                </div>
+                <div class="row p-0 mt-4 ps-5">
+                    <p class="organization-name col-2 p-0">Australian Paradise</p>
+                    <div class="rate col-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill bi-gray"></i>
+                        <i class="bi bi-star-fill bi-gray"></i>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-5 text-center">
+                        <hr>
+                        <span class="event-duration2">From 10/01/2019 untill 25/02/2019</span>
+                    </div>
+                </div>
+                <div class="row p-0 mt-4">
+                    <div class="col-3 pe-0  ps-5">
+                        <div class="apply-design mt-0 me-4">
+                            <a class="apply-btn btn mx-auto  my-auto align-items-center">Apply<i
+                                    class="bi bi-arrow-right arrow-icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-5 pe-0">
+
+                    </div>
+
+                    <div class="col-2 ps-5 pe-0 ">
+                        <div class=" d-flex  col align-items-center">
+                            <span class="image-cont d-flex ">
+                                <img class="card-dead-image1" src="./assets/Seats-left.png">
+                            </span>
+                            <div class="seats-left-text d-flex w-75">
+                                <span class="number-of-seats text-start ms-1">397
+                                    <span class="common-text d-flex">Seats left</span></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2 pe-0">
+                        <div class=" d-flex  col align-items-center p-0">
+                            <span class="image-cont d-flex ">
+                                <img class="card-dead-image1" src="./assets/deadline.png">
+                            </span>
+                            <div class="seats-left-text d-flex w-75">
+                                <span class="number-of-seats text-start ms-1">09/01/2019
+                                    <span class="common-text d-flex">Deadline</span></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
