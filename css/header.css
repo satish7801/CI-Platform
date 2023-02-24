@@ -1,18 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
-
-/* .container-lg{
-  max-width:1440px!important;
-} */
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap");
 
 
 .custom-nav {
   height: 72px;
   width: 100%;
-  
 }
 .first-part {
   margin-top: auto;
@@ -23,7 +14,11 @@
 .custom-dropdown {
   margin-left: 35px;
 }
+
 .custom-nav .dropdown-toggle::after {
+  content: none;
+}
+.second-header .dropdown-toggle::after {
   content: none;
 }
 
@@ -42,7 +37,7 @@
   height: 78px;
 }
 .filter-part {
-  border-bottom: 2px solid #E8E8E8;
+  border-bottom: 2px solid #e8e8e8;
 }
 .search-text {
   height: 78px;
@@ -64,8 +59,8 @@
   height: 50px;
 }
 
-.second-header{
-  border-top: 1px solid #E8E8E8;
+.second-header {
+  border-top: 1px solid #e8e8e8;
 }
 
 .filter-part-category-wise {
@@ -74,17 +69,15 @@
 .filter-common {
   height: 78px;
   border: none;
-  border-left: 1px solid #E8E8E8;
-  border-right: 1px solid #E8E8E8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
   padding-left: 10px;
 }
 .filter-common2 {
- 
- border: 1px solid #E8E8E8;
- border-radius: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
   margin: 10px 0px;
   padding: 10px 15px;
- 
 }
 
 select option {
@@ -100,7 +93,7 @@ select:focus {
   margin-top: 12px;
   margin-bottom: 12px;
   width: fit-content;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   border-radius: 30px;
   margin-right: 15px;
   padding: 5px 10px;
@@ -118,28 +111,27 @@ select:focus {
   text-decoration: none;
   color: black;
 }
-.explore{
-color: #414141;
-font-size: 24px;
-font-family: 'Noto Sans light', sans-serif;
+.explore {
+  color: #414141;
+  font-size: 24px;
+  font-family: "Noto Sans light", sans-serif;
 }
 
-.mission-number{
+.mission-number {
   font-size: 28px;
-  font-family: 'Noto Sans ', sans-serif;
+  font-family: "Noto Sans ", sans-serif;
 }
 
-.sort-container{
+.sort-container {
   width: 171px;
   height: 38px;
   padding-left: 12.5px;
   margin-top: 8px;
 }
-.view-type{
+.view-type {
   margin-left: 40px;
-
 }
-.grid-view{
+.grid-view {
   padding: 7px;
   background-color: #999898;
   border-radius: 50%;
@@ -147,63 +139,52 @@ font-family: 'Noto Sans light', sans-serif;
   margin-bottom: 10px;
 }
 
-.list-view{
+.list-view {
   margin-bottom: 10px;
 }
 
-
-
-
-
-
-.card-part{
+.card-part {
   background-color: #ece6e673;
 }
-.card-container{
-  
+.card-container {
 }
 
-.card-main{
+.card-main {
   width: 98%;
 }
 
 .custom-card {
   width: 100%;
- 
 }
 
 .card-image1 {
   margin-left: 0px;
   margin-right: 0px;
   border: none;
-  
 }
-.theme-title-container{
+.theme-title-container {
   margin-top: -15px;
   z-index: 99;
 }
 
 .theme-title {
-  
   width: 127px;
   height: 35px;
   background: white;
   border-radius: 18px;
-  
 }
 .card-body-design {
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
   margin-left: 10px;
   margin-right: 10px;
   justify-content: center;
 }
 
-.card-theme{
+.card-theme {
   outline: none;
-    width: fit-content;
-    position: relative;
-    top: -15px;
-
+  width: fit-content;
+  position: relative;
+  top: -15px;
 }
 .image-text {
   background-color: rgba(0, 0, 0, 0.498);
@@ -215,7 +196,6 @@ font-family: 'Noto Sans light', sans-serif;
 }
 .first-text {
   height: 35px;
-  
 }
 
 .location-image {
@@ -227,12 +207,11 @@ font-family: 'Noto Sans light', sans-serif;
   margin-top: 11px;
 }
 
-.first-body{
-  border-bottom: 1px solid #E8E8E8;
+.first-body {
+  border-bottom: 1px solid #e8e8e8;
 }
-.country-rating{
+.country-rating {
   padding-bottom: 26.5px;
-  
 }
 
 .bi-star-fill {
@@ -243,8 +222,6 @@ font-family: 'Noto Sans light', sans-serif;
 .bi-gray {
   color: gray;
 }
-
-
 
 .event-duration {
   text-align: center;
@@ -264,107 +241,95 @@ font-family: 'Noto Sans light', sans-serif;
   width: fit-content;
 }
 
-.event-progress-status{
+.event-progress-status {
   height: 78px;
-  
 }
-.seat-left{
+.seat-left {
   margin-left: 10px;
 }
-.progress-bar ::after{
-  color:   #F88634;
+.progress-bar ::after {
+  color: #f88634;
 }
 
-
-.card-dead-image{
+.card-dead-image {
   width: 25px;
   height: 25px;
   margin-bottom: 10px;
   margin-left: 30px;
 }
-.number-of-seats{
-  font-family: 'Noto Sans', sans-serif;
+.number-of-seats {
+  font-family: "Noto Sans", sans-serif;
   color: #414141;
 }
-.common-text{
+.common-text {
   color: #757575;
 }
 
-.apply-btn-container{
+.apply-btn-container {
   height: 92px;
 }
 
-.apply-btn{
-  color: #F88634;
-  font-size: 17px;
-  margin-top: 9.5px;
-  margin-bottom: 15.5px;
-  margin-left: 25px;
-  
-
-}
-
-.apply-btn:hover{
-  color: white;
-}
-
-
-
-
-.apply-design{
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 2px solid #F88634;
+.apply-design {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #f88634;
   border-radius: 24px;
   display: inline-block;
   margin-top: 30px;
-  
-  font-family: 'Noto Sans light', sans-serif;
+  height: fit-content;
+  width: fit-content;
+  padding-top: 9.5px;
+  padding-bottom: 15.5px;
+  padding-left: 25px;
+  padding-right: 24px;
+  color: #f88634;
+
 }
-.apply-design:hover{
-  background-color: #F88634;
+.apply-design:hover {
+  background-color: #f88634;
   color: white;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
 }
-.arrow-icon:hover{
+
+.apply-design:active{
+  background-color: #f88634;
+}
+.apply-design:focus-visible{
+  background-color: #f88634;
+}
+
+.arrow-icon {
+  margin-left: 19px;
+}
+
+.arrow-icon:hover {
   color: white;
 }
-
-.arrow-icon{
-  margin-left: 20px;
-  margin-right: 24px;
-}
-
-
-
 
 /* second-card */
-.list-card{
-  
+
+.list-card {
 }
 
-.card-image2{
-  
+.card-image2 {
 }
-.country-name{
-  font-family: 'Noto Sans light', sans-serif;
+.country-name {
+  font-family: "Noto Sans light", sans-serif;
   margin-left: 7px;
 }
 
-.mission-title{
-  font-family: 'Noto Sans light', sans-serif;
+.mission-title {
+  font-family: "Noto Sans light", sans-serif;
   font-weight: 700px;
   font-style: bold;
 }
 
-.mission-description{
-
+.mission-description {
 }
 
-.card-dead-image1{
+.card-dead-image1 {
   width: 25px;
   height: 25px;
   margin-bottom: 10px;
-  
 }
 .event-duration2 {
   text-align: center;
@@ -384,21 +349,30 @@ font-family: 'Noto Sans light', sans-serif;
   width: fit-content;
 }
 
+/* Media Query */
+@media screen and (min-width: 1550px) and (max-width: 1439px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1199px) {
+  .container {
+    max-width: 1380px;
+  }
+}
 
+
+
+@media screen and (min-width: 1200px) and (max-width: 990px) {
+  .container{
+    max-width: 1160px;
+  }  
+}
 @media screen and (max-width: 991px) {
   .filter-part-category-wise {
     display: none;
   }
-}
-
-@media screen and (min-width: 1550px)
-{
   .container{
-    max-width: 1440px!important;
-  }
-}
-@media screen and (min-width: 1480px){
-  .container{
-    max-width: 1400px;
+    max-width: 975px;
   }
 }

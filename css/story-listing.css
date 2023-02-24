@@ -1,0 +1,14 @@
+.card-overlay-background{
+    background-color: black;
+    opacity: 0.6;
+}
+.card-overlay-text{
+    color: white;
+    max-width: 45%;
+}
+.share-story-btn{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 17px;
+    border: 2px solid #FFFFFF;
+border-radius: 24px;
+}

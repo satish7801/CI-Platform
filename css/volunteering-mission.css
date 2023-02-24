@@ -14,10 +14,9 @@
   font-family: "Noto Sans light", sans-serif;
   font-size: 38px;
   color: #414141;
-  margin-top: 41.5px;
 }
 .card-text1 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans light", sans-serif;
   font-size: 17px;
 }
 
@@ -27,9 +26,6 @@
 }
 
 .common-btn-volunteer {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 90%;
   border: 2px solid #757575;
   border-radius: 25px;
   padding: 10px 16px;
@@ -120,13 +116,13 @@
   border: 1px solid #e8e8e8;
   border-radius: 3px;
 }
-.apply-design{
+.apply-design1{
   width: 220px;
 }
-.apply-btn{
+.apply-btn1{
   font-size: 20px;
 }
-.arrow-icon{
+.arrow-icon1{
   width: 25px;
   height: 16px;
   
@@ -196,6 +192,7 @@
 
 .comment-text{
   height: 78px;
+  width: 90%;
   font-family: "Noto Sans light", sans-serif;
 }
 .comment-container{
@@ -231,7 +228,7 @@
 
 .rating-container{
   border: 1px solid #e8e8e8;
-  width: 493px;
+  /* width: 493px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -278,7 +275,7 @@
   color: #414141;
   padding-bottom: 21px;
   border-bottom: 2px solid black;
-  width: 48%;
+  width: 215px;
   margin-bottom: 23px;
 }
 
@@ -322,8 +319,8 @@
 
 
 
-@media screen and (min-width: 1550px) {
+/* @media screen and (min-width: 1550px) {
   .main-container-volunteering {
     max-width: 1478px !important;
   }
-}
+} */
