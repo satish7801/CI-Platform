@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Register page";
+}
+
+ <div class="input-container ic d-flex flex-column">
+                <label for="email" class="lbl-design">First Name</label>
+                <input id="email" type="email" class="input-design" placeholder="evan">
+                <label for="email" class="lbl-design">last Name</label>
+                <input id="email" type="email" class="input-design" placeholder="donohue">
+                <label for="email" class="lbl-design">Phone Number</label>
+                <input id="email" type="email" class="input-design" placeholder="8923454615">
+                <label for="email" class="lbl-design">Email Address</label>
+                <input id="email" type="email" class="input-design" placeholder="evan.donohue@gmail.com">
+                <label for="pass" class="lbl-design">Password</label>
+                <input type="password" class="input-design" value="10101010">
+                <label for="pass" class="lbl-design">Confirm Password</label>
+                <input type="password" class="input-design" value="10101010">
+                <Button class="login-btn">Login</Button>
+                <a class="lost-pass" asp-controller="Home" asp-action="ForgetPassword">Lost your password?</a>
+                    <p class="simple-text">Already registered?<a asp-controller="Home" asp-action="Login" class="create-account-link">  Login now</a></p>
+
+                    <div class="privacy-container pc">
+
+                        <p class="privacy">Privacy Policy</p>
+
+                    </div>
+
+
+            </div>

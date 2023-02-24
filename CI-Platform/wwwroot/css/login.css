@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&family=Roboto:wght@900&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-part {
+    max-width: 68.22%;
+    max-height: 100%;
+}
+
+.image-design {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-container {
+    position: absolute;
+    width: 850px;
+    top: 643px;
+    left: 158.5px;
+}
+
+.big-text {
+    max-width: 592px;
+    /* min-height: 109px; */
+    text-align: left;
+    font-size: 43px;
+    letter-spacing: 0px;
+    font-family: "Noto Sans", sans-serif;
+    color: #ffffff;
+}
+
+.small-text {
+    max-width: 849px;
+    min-height: 120px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 23.92px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.input-part {
+    width: 31.78%;
+}
+
+.input-container {
+    max-width: 402px;
+    margin: 0px auto;
+    margin-top: 319px;
+}
+
+.lbl-design {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+}
+
+.input-design {
+    width: 100%;
+    height: 48px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #2b64b11f;
+    border: 1px solid #2b64b1;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom: 23px;
+    padding-left: 20px;
+}
+
+.login-btn {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7px;
+    width: 100%;
+    height: 48px;
+    background: #f8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #f88634;
+    border-radius: 24px;
+    color: #f88634;
+    font-family: "Noto Sans", sans-serif;
+}
+
+    .login-btn:hover {
+        background: #f88634;
+        color: white;
+    }
+
+.lost-pass {
+    margin-top: 17px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #414141;
+    font-size: 14px;
+}
+
+.simple-text {
+    margin-top: 15.5px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #414141;
+    font-size: 14px;
+}
+
+.create-account-link {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2b64b1;
+    font-size: 14px;
+}
+
+.privacy-container {
+    margin-top: 227px;
+}
+
+.privacy {
+    color: #414141;
+    font-size: 14px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* media query */
+
+@media screen and (max-width: 1720px) {
+    .privacy-container {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .input-container {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .big-text {
+        font-size: 35px;
+    }
+
+    .input-container {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .input-container {
+        margin-top: 100px;
+    }
+
+    .privacy-container {
+        margin-top: 50px;
+    }
+
+    .big-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .small-text {
+        display: none;
+    }
+
+    .input-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .privacy-container {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .input-container {
+        margin-top: 20px;
+    }
+
+    .privacy-container {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .image-part {
+        max-width: 100%;
+    }
+
+    .input-part {
+        width: 100%;
+    }
+
+    .input-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }
+
+    .input-design {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .big-text {
+        font-size: 12px;
+    }
+}

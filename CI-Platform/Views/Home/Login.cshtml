@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+   <div class="input-container d-flex flex-column">
+                <label for="email" class="lbl-design">Email Address</label>
+                <input id="email" type="email" class="input-design" placeholder="evan.donohue@gmail.com">
+                <label for="pass" class="lbl-design">Password</label>
+                <input type="password" class="input-design" value="10101010">
+                <Button class="login-btn">Login</Button>
+                <a class="lost-pass" asp-area="" asp-controller="Home" asp-action="ForgetPassword">Lost your password?</a>
+                    <p class="simple-text">Don't have an account?<a asp-controller="Home" asp-action="Register"  class="create-account-link" onclick=""> 
+                        Create an account</a></p>
+
+                            <div class="privacy-container">
+
+                                <p class="privacy">Privacy Policy</p>
+                
+                            </div>
+
+
+            </div>
