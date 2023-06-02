@@ -11,4 +11,9 @@ export class ShoppingListComponent {
     new Ingredient('Bread', 1),
     new Ingredient('Aloo Tikki', 1)
   ];
+
+  AddedNewIngrident(Ingredient: Ingredient){
+    this.Ingredients.push(Ingredient);
+  }
+
 }

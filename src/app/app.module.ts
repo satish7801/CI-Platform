@@ -32,7 +32,6 @@ import { RecipeAddComponent } from './recipes/recipe-add/recipe-add.component';
     FormsModule
   ],
   providers: [
-    { provide: 'recipes', useExisting: RecipesComponent }
   ],
   bootstrap: [AppComponent]
 })
